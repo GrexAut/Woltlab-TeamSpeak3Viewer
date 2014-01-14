@@ -10,7 +10,7 @@
                     $('.item.subChannel').each(function(index) {
                         id = $(this).attr('data_id');
                         pid = $(this).attr('data_pid');
-                        sid = $(this).parents().find('.container').attr('data_sid');
+                        sid = $(this).closest('.container').attr('data_sid');
                         
                         $(this).appendTo('.container[data_sid='+sid+'] .item[data_id='+pid+']');
                     });
