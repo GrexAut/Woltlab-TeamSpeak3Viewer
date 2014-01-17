@@ -1,4 +1,4 @@
-{include file='documentHeader'}
+{include file='documentHeader'} 
 
 <head>
 	<title>{lang}wcf.teamspeak3viewer.headline{/lang}</title>
