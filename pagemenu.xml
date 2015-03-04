@@ -4,6 +4,7 @@
 		<pagemenuitem name="wcf.page.teamspeak3viewer">
 			<controller><![CDATA[wcf\page\TeamSpeak3ViewerPage]]></controller>
 			<position>header</position>
+			<permissions>user.board.teamspeak3viewer.canView</permissions>
 		</pagemenuitem>
 	</import>
 </data>
